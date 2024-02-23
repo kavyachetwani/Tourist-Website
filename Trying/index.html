@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+    <section class = "header brown">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" ></a>
+            <div class="nav-links" id = "navLinks"> 
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                   <li><a href="">HOME</a></li> 
+                   <li><a href="Search/searchIndex.html">SEARCH</a></li>
+                   <li><a href="About us/abtusIndex.html">ABOUT US</a></li> 
+                   <li><a href="Contact Us/contactusIndex.html">CONTACT US</a></li> 
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            
+        </nav>
+        <div class="ribbon">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+          </svg>
+      </div>
+        
+        <div class="text-box">
+           <h1>Exploring Beyond Boundaries</h1>
+            <p>
+            Welcome to Safar - Your Gateway to Unforgettable Adventures!
+            Embark on a journey of discovery with us as we unveil the hidden treasures and enchanting 
+            wonders of India. Whether you're a seasoned traveler or a first-time explorer, our comprehensive 
+            guide is your compass to navigate through the <br>rich tapestry of experiences awaiting you.
+            </p>
+            <a href="" class = "hero-btn"> Explore Now</a>
+        </div>
+
+
+    </section>
+
+
+<!--- toggle menu-->
+    <script>
+       var navLinks = document.getElementById("navLinks");
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+    </script>
+
+
+    <section class = "content">
+        <div class="container">
+            <div class="categ1">
+              <h2><a href = "" >Nature</a></h2>
+            </div>
+            <div class="categ2">
+              
+                <h2>
+                  <a href = "">Entertainment<br />
+                    & <br />Fun</a>
+                </h2>
+              
+            </div>
+            <div class="categ3">
+              
+                <h2>
+                  <a href="2ndSlide/page2.html">History<br />
+                    & <br />Mythology</a>
+                </h2>
+              
+            </div>
+            <div class="categ4">
+              <h2><a href="">Food</a></h2>
+            </div>
+          </div>
+    </section>
+
+
+    <section class = "footer">
+        <div class="ribbon1">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <div class="foothead">
+            <h1>Discover What Travelers Are Saying</h1>
+            <p>Explore firsthand experiences and insights from fellow adventurers who have journeyed through India. 
+            Get inspired, gain valuable tips, and plan your own unforgettable adventure</p>
+        </div>
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="images/woman.webp" >
+                    <div>
+                      <p>As a solo traveler, I was a bit nervous about exploring India on my own. But thanks to the recommendations from this guide, 
+                        I felt confident navigating the country and discovering its wonders. It was an incredible journey filled with unforgettable memories!</p>
+                        <h3>Emily S.</h3>  
+                    </div>
+                </div>
+                <div class="testimonial-col">
+                    <img src="images/man.webp" >
+                    <div>
+                      <p>I was blown away by the level of detail and expertise provided by Safar. From booking accommodations to planning daily activities,
+                         their recommendations were spot-on and saved me a ton of time and hassle. Thanks to them, I was able to make the most of my limited time in 
+                         India. Highly recommend their services!</p>
+                        <h3>George H.</h3>  
+                    </div>
+                </div>
+                <div class="testimonial-col">
+                    <img src="images/man.webp" >
+                    <div>
+                      <p>I was blown away by the level of detail and expertise provided by Safar. From booking accommodations to planning daily activities,
+                         their recommendations were spot-on and saved me a ton of time and hassle. Thanks to them, I was able to make the most of my limited time in 
+                         India. Highly recommend their services!</p>
+                        <h3>George H.</h3>  
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+  </div>
+</body>
+</html>
